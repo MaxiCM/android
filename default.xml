@@ -596,4 +596,5 @@
     <copyfile src="tools/maxi-build.sh" dest="maxi-build.sh" />
   </project>
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/cm" name="android_vendor_cm-sdk" remote="maxicm" />
 </manifest>
