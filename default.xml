@@ -588,6 +588,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" revision="maxi-5.1" />
+  <project path="vendor/maxi" name="android_vendor_maxi" remote="maxicm" >
+    <copyfile src="tools/maxi-build.sh" dest="maxi-build.sh" />
+  </project>
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
