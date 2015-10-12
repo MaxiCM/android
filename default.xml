@@ -12,7 +12,7 @@
 
   <remote  name="maxicm"
            fetch="git://github.com/MaxiCM"
-           revision="refs/heads/maxi-5.1"
+           revision="refs/heads/maxi-5.1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
