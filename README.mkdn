@@ -11,8 +11,3 @@ To initialize your local repository using the MaxiCM trees, use a command like t
 Then to sync up:
 
     repo sync -f
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
