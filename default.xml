@@ -10,6 +10,10 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="maxicm"
+           fetch="git://github.com/MaxiCM"
+           revision="refs/heads/maxi-5.1"
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -18,11 +22,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="MaxiCM/android_build" groups="pdk,tradefed" revision="maxi-5.1" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="maxicm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="MaxiCM/android" revision="maxi-5.1" />
+  <project path="android" name="android" remote="maxicm" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
