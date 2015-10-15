@@ -2,7 +2,7 @@
   <remote name="maxicm-oficial" fetch="git://gitlab.com/MaxiCM" />
   
   <!-- Unofficial Vendor -->
-  <remove-project name="android_vendor_maxi" remote="maxicm" />
+  <remove-project path="vendor/maxi" name="android_vendor_maxi" remote="maxicm" />
 
 
   <!-- Official Vendor -->
