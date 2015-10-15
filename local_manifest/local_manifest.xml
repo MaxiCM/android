@@ -1,5 +1,5 @@
   <manifest>
-  <remote name="maxicm-oficial" fetch="git://gitlab.com" />
+  <remote name="maxicm-oficial" fetch="git://gitlab.com/MaxiCM" />
   
   <!-- Unofficial Vendor -->
   <remove-project name="android_vendor_maxi" remote="maxicm" />
@@ -7,6 +7,6 @@
 
   <!-- Official Vendor -->
 
-  <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" remote="maxicm-oficial" />
+  <project path="vendor/maxi" name="android_vendor_MaxiCM" remote="maxicm-oficial" />
   
 </manifest>
