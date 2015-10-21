@@ -592,7 +592,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/maxi" name="android_vendor_maxi" remote="maxicm" >
-    <copyfile src="maxi-build.sh" dest="maxi-build.sh" />
+    <copyfile src="maxi.sh" dest="maxi.sh" />
   </project>
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
