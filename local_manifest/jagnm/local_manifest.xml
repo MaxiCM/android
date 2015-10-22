@@ -1,0 +1,9 @@
+<manifest>
+
+<!-- jagnm base repositories -->
+  <project path="device/lge/jagnm" name="android_device_lge_jagnm" remote="maxicm" />
+  <project path="kernel/lge/jagnm" name="android_kernel_lge_jagnm" remote="maxicm" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="maxicm" />
+<!-- add more repos of jagnm here -->
+
+</manifest>
