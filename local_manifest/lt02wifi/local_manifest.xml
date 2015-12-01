@@ -1,9 +1,0 @@
-<manifest>
-
-<!-- lt02wifi base repositories -->
-  <project path="device/samsung/lt02wifi" name="android_device_samsung_lt02wifi" remote="maxicm" />
-  <project path="kernel/samsung/lt02" name="kernel_samsung_lt02xx" remote="maxicm" revision="lp-bringup" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="maxicm" />
-<!-- add more repos of lt02wifi here -->
-
-</manifest>

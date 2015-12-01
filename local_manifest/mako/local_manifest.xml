@@ -1,9 +1,0 @@
-<manifest>
-
-<!-- mako base repositories -->
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="maxicm" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="maxicm" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="maxicm" />
-<!-- add more repos of mako here -->
-
-</manifest>
