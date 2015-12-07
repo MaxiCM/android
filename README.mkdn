@@ -11,3 +11,8 @@ To initialize your local repository using the MaxiCM trees, use a command like t
 Then to sync up:
 
     repo sync -f
+
+Check our website
+---------------
+
+www.maxicm.com
