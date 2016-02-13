@@ -11,6 +11,19 @@ To initialize your local repository using the MaxiCM trees, use a command like t
 Then to sync up:
 
     repo sync -f
+    
+## Building ##
+
+The bundled builder tool `./maxi.sh` handles all the building steps for the specified device
+automatically. As the device value, you just feed it with the device codename (for example,
+'jagnm' for the D722P).
+
+```bash
+# Go to the root of the source tree...
+$ cd WORKSPACE
+# ...and run the builder tool.
+$ ./maxi.sh jagnm
+```
 
 Check our website
 ---------------
