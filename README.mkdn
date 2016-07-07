@@ -1,12 +1,18 @@
 MaxiCM
+===========
+
 Getting Started
+---------------
 
 To initialize your local repository using the MaxiCM trees, use a command like this:
 
-repo init -u https://github.com/MaxiCM/android.git -b maxi-6.0
+    repo init -u https://github.com/MaxiCM/android.git -b maxi-6.0
+
 Then to sync up:
 
-repo sync -f
+    repo sync -f
+
 Check our website
+---------------
 
 www.maxicm.com
