@@ -20,19 +20,19 @@
 
 <!-- BEGIN MaxiCM -->
 
-  <project path="build" name="MaxiCM/android_build" groups="pdk" >
+  <project path="build" name="MaxiCM/android_build" groups="pdk" revision="maxi-6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="MaxiCM/android" />
-  <project path="frameworks/base" name="MaxiCM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/MaxiSetupWizard" name="MaxiCM/android_packages_apps_MaxiSetupWizard" />
-  <project path="packages/apps/MaxiWallpapers" name="MaxiCM/android_packages_apps_MaxiWallpapers" />
-  <project path="packages/apps/OTAUpdates" name="MaxiCM/android_packages_apps_OTAUpdates" />
-  <project path="packages/apps/Settings" name="MaxiCM/android_packages_apps_Settings" />
-  <project path="system/core" name="MaxiCM/android_system_core" groups="pdk" />
-  <project path="vendor/cmsdk" name="MaxiCM/cm_platform_sdk" />
-  <project path="device/qcom/sepolicy" name="MaxiCM/android_device_qcom_sepolicy" />
-  <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" >
+  <project path="android" name="MaxiCM/android" revision="maxi-6.0-test" />
+  <project path="frameworks/base" name="MaxiCM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="maxi-6.0" />
+  <project path="packages/apps/MaxiSetupWizard" name="MaxiCM/android_packages_apps_MaxiSetupWizard" revision="maxi-6.0" />
+  <project path="packages/apps/MaxiWallpapers" name="MaxiCM/android_packages_apps_MaxiWallpapers" revision="maxi-6.0" />
+  <project path="packages/apps/OTAUpdates" name="MaxiCM/android_packages_apps_OTAUpdates" revision="maxi-6.0" />
+  <project path="packages/apps/Settings" name="MaxiCM/android_packages_apps_Settings" revision="maxi-6.0" />
+  <project path="system/core" name="MaxiCM/android_system_core" groups="pdk" revision="maxi-6.0" />
+  <project path="vendor/cmsdk" name="MaxiCM/cm_platform_sdk" revision="maxi-6.0" />
+  <project path="device/qcom/sepolicy" name="MaxiCM/android_device_qcom_sepolicy" revision="maxi-6.0" />
+  <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" revision="maxi-6.0" >
        <copyfile src="maxi.sh" dest="maxi.sh" />
   </project>
 
