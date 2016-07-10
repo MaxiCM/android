@@ -30,6 +30,7 @@
   <project path="packages/apps/OTAUpdates" name="MaxiCM/android_packages_apps_OTAUpdates" />
   <project path="packages/apps/Settings" name="MaxiCM/android_packages_apps_Settings" />
   <project path="system/core" name="MaxiCM/android_system_core" groups="pdk" />
+  <project path="vendor/cmsdk" name="MaxiCM/cm_platform_sdk" />
   <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" >
        <copyfile src="maxi.sh" dest="maxi.sh" />
   </project>
@@ -294,7 +295,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
