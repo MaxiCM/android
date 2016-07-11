@@ -30,15 +30,15 @@
   <project path="packages/apps/OTAUpdates" name="MaxiCM/android_packages_apps_OTAUpdates" revision="maxi-6.0" />
   <project path="packages/apps/Settings" name="MaxiCM/android_packages_apps_Settings" revision="maxi-6.0" />
   <project path="system/core" name="MaxiCM/android_system_core" groups="pdk" revision="maxi-6.0" />
-  <project path="vendor/cmsdk" name="MaxiCM/cm_platform_sdk" revision="maxi-6.0" />
-  <project path="device/qcom/sepolicy" name="MaxiCM/android_device_qcom_sepolicy" revision="maxi-6.0" />
   <project path="vendor/maxi" name="MaxiCM/android_vendor_maxi" revision="maxi-6.0" >
        <copyfile src="maxi.sh" dest="maxi.sh" />
   </project>
 
 <!-- END MaxiCM -->
 
+
 <!-- BEGIN CYANOGENMOD -->
+  </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -53,6 +53,7 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -293,8 +294,8 @@
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
